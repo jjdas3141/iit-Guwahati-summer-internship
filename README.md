@@ -377,3 +377,25 @@ GitHub repository: https://github.com/jjdas3141/iit-Guwahati-summer-internship
 ---
 
 This project was developed to study the mathematical foundations of SVD and explore their practical application to facial-image representation, reconstruction, and recognition using MATLAB.
+
+## Visual Results
+
+### Eigenfaces
+
+![Leading eigenfaces](results/eigenfaces.png)
+
+### Face Reconstruction
+
+![Face reconstruction for different component counts](results/face_reconstruction.png)
+
+### Recognition Accuracy
+
+![Recognition accuracy results](results/recognition_accuracy.png)
+
+### Known-Face Recognition
+
+![Successful recognition example](results/known_face_recognition.png)
+
+### Unknown-Face Rejection
+
+![Unknown-face rejection example](results/unknown_face_rejection.png)
