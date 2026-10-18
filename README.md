@@ -343,6 +343,15 @@ These are initial functional checks showing that the recognition and rejection p
 
 A more complete evaluation would require a separate set of images from individuals who do not appear in the ORL training dataset, together with appropriate measurements of false acceptance and false rejection rates.
 
+## Key Findings
+
+- SVD provides a mathematical framework for decomposing the mean-centred facial data matrix into singular vectors and singular values.
+- Retaining the leading singular components produces a low-rank approximation of the facial data, enabling dimensionality reduction and image reconstruction.
+- Increasing the number of retained components generally preserves more reconstruction detail, but does not guarantee higher face-recognition accuracy.
+- In the evaluated experiment, 50 and 190 components both achieved 89.17% final test accuracy.
+- Selecting the number of components using calibration data helps separate model selection from final evaluation.
+- The rejection mechanism demonstrates a basic approach to handling unfamiliar inputs, but requires further evaluation on an independent unknown-person dataset.
+
 ## 11. Limitations
 
 The current implementation has several limitations:
