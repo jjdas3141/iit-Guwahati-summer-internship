@@ -46,13 +46,13 @@ The leading columns of `U` form a lower-dimensional eigenface subspace. A face c
 
 | Script | Description |
 |---|---|
-| `01_check_dataset.m` | Validate the dataset and image files |
-| `02_build_data_matrix.m` | Construct the data matrix and mean face |
-| `03_svd_eigenfaces.m` | Compute SVD and visualize eigenfaces |
-| `04_select_components.m` | Analyze cumulative singular-value energy |
-| `05_face_reconstruction.m` | Reconstruct faces using selected components |
-| `06_face_recognition.m` | Evaluate nearest-neighbour recognition |
-| `07_interactive_eigenface_demo.m` | Interactive recognition and rejection demo |
+| `O1_check_dataset.m` | Validate the dataset and image files |
+| `O2_build_data_matrix.m` | Construct the data matrix and mean face |
+| `O3_svd_eigenfaces.m` | Compute SVD and visualize eigenfaces |
+| `O4_select_components.m` | Analyze cumulative singular-value energy |
+| `O5_face_reconstruction.m` | Reconstruct faces using selected components |
+| `O6_face_recognition.m` | Evaluate nearest-neighbour recognition |
+| `O7_interactive_eigenface_demo.m` | Interactive recognition and rejection demo |
 
 ## Dataset
 
